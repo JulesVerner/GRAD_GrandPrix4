@@ -31,4 +31,13 @@ class CfgMusic {
 		theme = "safe";
 		musicClass = "Lead";
 	};
+
+	class CantStop
+	{
+		name = "CantStop";
+		sound[] = {QPATHTOF(Cant_Stop.ogg), 1, 1};
+		duration = 269;
+		theme = "safe";
+		musicClass = "Lead";
+	};
 };
