@@ -31,12 +31,35 @@ class CfgMusic {
 		theme = "safe";
 		musicClass = "Lead";
 	};
-
 	class CantStop
 	{
 		name = "CantStop";
 		sound[] = {QPATHTOF(Cant_Stop.ogg), 1, 1};
 		duration = 269;
+		theme = "safe";
+		musicClass = "Lead";
+	};
+	class 90
+	{
+		name = "90";
+		sound[] = {QPATHTOF(90.ogg), 1, 1};
+		duration = 309.6;
+		theme = "safe";
+		musicClass = "Lead";
+	};
+	class ameno
+	{
+		name = "ameno";
+		sound[] = {QPATHTOF(ameno.ogg), 1, 1};
+		duration = 309.6;
+		theme = "safe";
+		musicClass = "Lead";
+	};
+	class decadence
+	{
+		name = "decadence";
+		sound[] = {QPATHTOF(decadence.ogg), 1, 1};
+		duration = 309.6;
 		theme = "safe";
 		musicClass = "Lead";
 	};
