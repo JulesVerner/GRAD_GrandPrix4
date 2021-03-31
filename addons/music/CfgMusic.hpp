@@ -39,7 +39,7 @@ class CfgMusic {
 		theme = "safe";
 		musicClass = "Lead";
 	};
-	class 90
+	class 90s
 	{
 		name = "90";
 		sound[] = {QPATHTOF(90.ogg), 1, 1};
