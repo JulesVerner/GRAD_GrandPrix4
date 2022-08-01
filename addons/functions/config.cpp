@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = { QMAINPATCH };
+        requiredAddons[] = { QMAINPATCH , "A3_Map_Abramia"};
         authors[] = { "Jules"};
         VERSION_CONFIG;
     };
@@ -15,3 +15,5 @@ class CfgPatches {
 #include <CfgVehicles.hpp>
 #include <CfgMagazines.hpp>
 #include <CfgWeapons.hpp>
+#include <CfgAmmo.hpp>
+#include <CfgWorlds.hpp>

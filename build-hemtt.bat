@@ -6,18 +6,18 @@ if exist a3 (
 mklink /j a3 include\a3
 
 mkdir x
-mkdir x\grad_grandprix4
-if exist x\grad_grandprix4\addons (
-  rmdir x\grad_grandprix4\addons
+mkdir x\grad_grandprix5
+if exist x\grad_grandprix5\addons (
+  rmdir x\grad_grandprix5\addons
 )
-mklink /j x\grad_grandprix4\addons addons
+mklink /j x\grad_grandprix5\addons addons
 
 tools\hemtt build --force --release
 set BUILD_STATUS=%errorlevel%
 
 rmdir a3
-rmdir x\grad_grandprix4\addons
-rmdir x\grad_grandprix4
+rmdir x\grad_grandprix5\addons
+rmdir x\grad_grandprix5
 rmdir x
 
 if %BUILD_STATUS% neq 0 (

@@ -1,6 +1,6 @@
 name = "GRAD Trenches"
-prefix = "grad_grandprix4"
-author = "Salbei"
+prefix = "grad_grandprix5"
+author = "Jules"
 files = [
     "mod.cpp",
     "logo_grad_ca.paa",
@@ -12,7 +12,7 @@ key_name = "{{prefix}}_{{version}}"
 authority = "{{prefix}}_{{version}}-{{git \"id 8\"}}"
 
 releasebuild = [
-    "@zip grad_grandprix4_{{semver.major}}.{{semver.minor}}.{{semver.patch}}.{{semver.build}}"
+    "@zip grad_grandprix5_{{semver.major}}.{{semver.minor}}.{{semver.patch}}.{{semver.build}}"
 ]
 
 [header_exts]

@@ -1,5 +1,5 @@
 #define MAINPREFIX x
-#define PREFIX grad_grandprix4
+#define PREFIX grad_grandprix5
 
 #include "script_version.hpp"
 

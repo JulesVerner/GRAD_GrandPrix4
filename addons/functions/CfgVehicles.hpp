@@ -53,6 +53,33 @@ class CfgVehicles {
         normalSpeedForwardCoef = 0.97;
         idleRpm = 600;    
     };
+
+    class B_SDV_01_F;
+    class GRAD_TurboSDV: B_SDV_01_F {
+        displayName = "Turbo SDV";
+        acceleration = 500;
+        enginePower = 3000;
+        maxSpeed = 500;
+        redRpm = 10000;
+        waterResistance = 0;
+        waterResistanceCoef = 0.015;
+        waterEffectSpeed = 25;
+        waterSpeedFactor = 50;
+    };
+
+    class C_Scooter_Transport_01_F;
+    class GRAD_TurboScooter: C_Scooter_Transport_01_F {
+        displayName = "Turbo Water Scooter";
+        maxSpeed = 110;
+        redRpm = 2000;
+        enginePower = 130;
+        // waterResistance = 6;
+        // waterResistanceCoef = 0.004;
+        // waterEffectSpeed = 3;
+        // waterFastEffectSpeed = 40;
+        // waterLinearDampingCoefX = 5;
+        // waterLinearDampingCoefY = 3;
+    };
 };
 
 
@@ -103,6 +130,7 @@ class CfgVehicles {
 // accuracyNightLightsOn = 0.1;
 // ace_cargo_hasCargo = 1;
 // ace_cargo_space = 4;
+// waterFastEffectSpeed = 28;
 // ace_refuel_canReceive = 1;
 // ace_refuel_flowRate = 1;
 // ace_refuel_fuelCapacity = 50;
